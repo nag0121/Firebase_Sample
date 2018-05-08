@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".DisplayActivity">
+
+    <ImageView
+        android:id="@+id/iv_pic_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imageview"
+        android:contentDescription="TODO" />
+    <TextView
+        android:id="@+id/tv_t_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="h"
+        android:paddingLeft="30dp"
+        android:textAllCaps="true"
+        android:paddingTop="9dp"
+        android:textSize="60dp"/>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/tv_wel_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_pic_display"
+        android:text="Welcome to firebase"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn_logout_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="logout"
+android:layout_alignParentBottom="true"        />
+
+</RelativeLayout>
